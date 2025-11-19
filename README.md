@@ -1,91 +1,92 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>For My Princess Pari 💗</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Princess Pari 💗</title>
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background: linear-gradient(#ffd6eb, #ffe9f7);
-        padding: 20px;
-        margin: 0;
-        text-align: center;
-        animation: bgfade 6s infinite alternate;
-    }
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(#ffd6eb, #ffe9f7);
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+            animation: bgfade 6s infinite alternate;
+        }
 
-    @keyframes bgfade {
-        from { background-color: #ffd6eb; }
-        to   { background-color: #ffe1f4; }
-    }
+        @keyframes bgfade {
+            from { background-color: #ffd6eb; }
+            to   { background-color: #ffe1f4; }
+        }
 
-    .page {
-        display: none;
-        max-width: 700px;
-        margin: auto;
-        margin-top: 40px;
-        padding: 25px;
-        background: #ffffffcc;
-        border-radius: 15px;
-        box-shadow: 0 8px 20px #ffb7db;
-        animation: float 4s ease-in-out infinite;
-        line-height: 1.7;
-    }
+        .page {
+            display: none;
+            max-width: 700px;
+            margin: auto;
+            margin-top: 40px;
+            padding: 25px;
+            background: #ffffffcc;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px #ffb7db;
+            animation: float 4s ease-in-out infinite;
+            line-height: 1.7;
+        }
 
-    @keyframes float {
-        0% { transform: translateY(0px); }
-        50% { transform: translateY(-8px); }
-        100% { transform: translateY(0px); }
-    }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+            100% { transform: translateY(0px); }
+        }
 
-    h1, h2 {
-        color: #d63384;
-        text-shadow: 0 0 10px #ff8ac9;
-        animation: glow 2s infinite alternate;
-    }
+        h1, h2 {
+            color: #d63384;
+            text-shadow: 0 0 10px #ff8ac9;
+            animation: glow 2s infinite alternate;
+        }
 
-    @keyframes glow {
-        from { text-shadow: 0 0 8px #ffa9d9; }
-        to   { text-shadow: 0 0 18px #ff2fa7; }
-    }
+        @keyframes glow {
+            from { text-shadow: 0 0 8px #ffa9d9; }
+            to   { text-shadow: 0 0 18px #ff2fa7; }
+        }
 
-    .btn {
-        display: block;
-        margin: 15px auto;
-        padding: 14px 25px;
-        width: 250px;
-        border: none;
-        border-radius: 30px;
-        background: #ff7fbd;
-        color: white;
-        font-size: 18px;
-        cursor: pointer;
-        box-shadow: 0 6px 15px #ffb5d9;
-        transition: 0.3s;
-    }
+        .btn {
+            display: block;
+            margin: 15px auto;
+            padding: 14px 25px;
+            width: 250px;
+            border: none;
+            border-radius: 30px;
+            background: #ff7fbd;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 0 6px 15px #ffb5d9;
+            transition: 0.3s;
+            position: relative;
+        }
 
-    .btn:hover {
-        background: #ff4fa8;
-        transform: scale(1.05);
-    }
+        .btn:hover {
+            background: #ff4fa8;
+            transform: scale(1.05);
+        }
 
-    .back-btn {
-        margin-top: 25px;
-        padding: 12px 20px;
-        background: #ff7fbd;
-        border: none;
-        color: white;
-        border-radius: 30px;
-        font-size: 16px;
-        cursor: pointer;
-        box-shadow: 0 6px 15px #ffb5d9;
-    }
+        .back-btn {
+            margin-top: 25px;
+            padding: 12px 20px;
+            background: #ff7fbd;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 6px 15px #ffb5d9;
+        }
 
-    .back-btn:hover {
-        background: #ff4fa8;
-    }
-</style>
+        .back-btn:hover {
+            background: #ff4fa8;
+        }
+    </style>
 
 </head>
 <body>
@@ -109,12 +110,12 @@
     <h2>💌 Ek Cute Si Note, Sirf Pari Ke Liye 💕</h2>
     <p>
         Hey Pari, 🌷😄<br><br>
-        Pata hai? Aaj Princess Day hai…  
-        agar maine message nahi bheja toh universe mujhe  
-        “crush ka worst fan” award de deta. 😂👑<br><br>
+        Pata hai? Aaj Princess Day hai… agar maine message nahi bheja toh
+        universe mujhe “crush ka worst fan” award de deta. 😂👑<br><br>
 
         Tu itni sweet ho ki chocolate bhi retire ho jaaye. 🍫😌<br><br>
-        Teri smile ka effect — mood +100, tension -100. 📶💗  
+
+        Teri smile ka effect — mood +100, tension -100. 📶💗
     </p>
     <button class="back-btn" onclick="showPage('home')">⬅ Back</button>
 </div>
@@ -123,11 +124,11 @@
 <div id="wish" class="page">
     <h2>👑✨ Happy Princess Day, Pari! ✨👑</h2>
     <p>
-        Aaj ka din officially tum jaise logon ke liye hota hai —  
-        jo bina effort ke duniya ko pretty aur bright bana dete hain. 🌸💗<br><br>
+        Aaj ka din officially tum jaise logon ke liye hota hai — jo bina effort ke
+        duniya ko pretty aur bright bana dete hain. 🌸💗<br><br>
 
-        Happy Princess Day to the sweetest,  
-        funniest, accidental-heart-stealer princess — <strong>YOU</strong>! 👸💞  
+        Happy Princess Day to the sweetest, funniest, accidental-heart-stealer
+        princess — <strong>YOU</strong>! 👸💞
     </p>
     <button class="back-btn" onclick="showPage('home')">⬅ Back</button>
 </div>
@@ -136,18 +137,33 @@
 <div id="proposal" class="page">
     <h2>💘 Cute Proposal for My Pari 😳💕</h2>
     <p>
-        Dekho Pari…  
-        agar tumhe theek lage,  
-        toh main tumhe thoda sa zyada  
-        pasand karna chahta hoon. 😄💘<br><br>
+        Dekho Pari… agar tumhe theek lage,<br>
+        toh main tumhe thoda sa zyada pasand karna chahta hoon. 😄💘<br><br>
 
-        Bas itna puch raha hoon —  
-        <strong>kya main tumhari life mein  
-        “thoda-extra-special” wala spot le sakta hoon?</strong> 😉💗<br><br>
+        Bas itna puch raha hoon — 
+        <strong>kya main tumhari life mein “thoda-extra-special” wala spot le sakta hoon?</strong> 😉💗<br><br>
 
-        Pressure zero.  
-        Feelings 100.  
-        Vibe = cute. 😌💞  
+        Pressure zero. Feeling 100. Vibe = cute. 😌💞
+    </p>
+
+    <button class="btn" onclick="showPage('yesPage')">💗 YES</button>
+
+    <button class="btn" id="noBtn"
+        onmouseover="moveNoButton()"
+        onmousedown="moveNoButton()">
+        ❌ NO
+    </button>
+
+    <button class="back-btn" onclick="showPage('home')">⬅ Back</button>
+</div>
+
+<!-- YES PAGE -->
+<div id="yesPage" class="page">
+    <h2>💖 Yaaay Pari! 💖</h2>
+    <p>
+        Tumne YES bola!! 😳💗<br><br>
+        Ab officially tum meri favorite person ho. 🫶✨<br>
+        Thanks for making my whole day, whole week, whole everything! 💞
     </p>
     <button class="back-btn" onclick="showPage('home')">⬅ Back</button>
 </div>
@@ -168,6 +184,14 @@
             audio.play();
         }
     });
+
+    // NO button movement
+    function moveNoButton() {
+        const noBtn = document.getElementById("noBtn");
+        const x = Math.random() * 200 - 100;
+        const y = Math.random() * 200 - 100;
+        noBtn.style.transform = `translate(${x}px, ${y}px)`;
+    }
 </script>
 
 </body>
